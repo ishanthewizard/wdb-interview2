@@ -1,0 +1,154 @@
+body,
+html {
+  height: 100%;
+}
+.buffer {
+  margin-top: 200px;
+}
+
+a {
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: white;
+}
+.navbar {
+  color: white;
+  background-color: black;
+  font-family: "Overpass";
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.title {
+  word-spacing: 7px;
+  font-size: 70px;
+  font-weight: 900px;
+}
+.contact {
+  color: rgb(154, 154, 154);
+  width: 150px;
+  font-size: 12px;
+}
+.contact p {
+  margin: 4px 0px;
+}
+.home-block {
+  font-family: "Overpass";
+  background: url("https://www.ecstasycoffee.com/wp-content/uploads/2016/05/A-Fashion-Show-with-Ducks.jpg")
+    no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 900px;
+}
+.home-content {
+  padding-top: 400px;
+  padding-left: 100px;
+}
+.home-block h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.home-block h3 {
+  width: 40%;
+  font-size: 60px;
+}
+.cardee {
+  background-color: rgb(240, 237, 224);
+  height: 300px;
+  width: 500px;
+  border-radius: 3%;
+  margin: 0px;
+}
+.duck-img {
+  height: 100px;
+  margin-right: 20px;
+}
+.voting-img {
+  width: 105%;
+  height: 80%;
+  position: relative;
+  right: 2.4%;
+  bottom: 2%;
+}
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 300px;
+  row-gap: 50px;
+  justify-content: center;
+  height: 700px;
+}
+.card-desc {
+  margin-top: 0px;
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+}
+.push {
+  height: 40px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: aliceblue;
+  padding-left: 12px;
+  position: relative;
+}
+.push.down {
+  right: 40px;
+}
+.upDown {
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  width: 35%;
+  top: -50px;
+  left: 330px;
+}
+.winner-container {
+  text-align: center;
+  height: 900px;
+}
+
+.winners-desc {
+  display: inline-block;
+  height: 900px;
+  width: 50%;
+  background-color: rgb(240, 237, 224);
+  vertical-align: top;
+  padding: 10%;
+}
+
+.winners-desc p {
+  font-size: 20px;
+}
+.scoreholder {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 10% 10%;
+}
+.MuiCardHeader-title {
+  font-size: 100px;
+}
+
+.scoreSubHolder {
+  height: 500px;
+  overflow: auto;
+}
+
+.photo-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  row-gap: 30px;
+}
+
+.grey-block {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
